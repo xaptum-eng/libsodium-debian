@@ -1,3 +1,13 @@
+libsodium (1.0.13-2~xap) unstable; urgency=medium
+
+  [ Zane Beckwith ]
+  * Change compat to work on Jessie
+  * Add dh-autoreconf to Build-Depends (lintian complained)
+  * Add gbp.conf
+  * Imported Upstream version 1.0.13
+
+ -- Zane Beckwith <zane.beckwith@xaptum.com>  Tue, 17 Apr 2018 17:17:16 +0000
+
 libsodium (1.0.13-1) unstable; urgency=medium
 
   * New upstream release.
