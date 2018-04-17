@@ -1,0 +1,87 @@
+libsodium (1.0.13-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Remove dh-autoreconf build dependency.
+  * Update libsodium18.symbols .
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Mon, 24 Jul 2017 20:03:09 +0000
+
+libsodium (1.0.12-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update Standards-Version to 4.0.0 and debhelper level to 10 .
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Tue, 11 Jul 2017 18:33:45 +0000
+
+libsodium (1.0.11-2) unstable; urgency=medium
+
+  * Remove Raúl Sánchez Siles from uploaders per his request.
+  * Update VCS location (closes: #859315).
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sun, 16 Apr 2017 10:14:04 +0000
+
+libsodium (1.0.11-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Fri, 19 Aug 2016 17:00:37 +0000
+
+libsodium (1.0.10-1) unstable; urgency=low
+
+  * New upstream release, hides assembly symbols on amd64.
+  * Update libsodium18.symbols .
+  * Update Standards-Version to 3.9.8 .
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Fri, 15 Apr 2016 16:07:32 +0000
+
+libsodium (1.0.8-5) unstable; urgency=low
+
+  * Last bits of architecture specific symbols (closes: #813756).
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Fri, 05 Feb 2016 02:53:09 +0100
+
+libsodium (1.0.8-4) unstable; urgency=low
+
+  * Mark more {,kfreebsd-}amd64, {,kfreebsd-}i386 and x32 symbols as-is.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Thu, 04 Feb 2016 21:05:01 +0100
+
+libsodium (1.0.8-3) unstable; urgency=low
+
+  * Upload to Sid for starting the package transition.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Thu, 04 Feb 2016 19:06:05 +0100
+
+libsodium (1.0.8-2) experimental; urgency=low
+
+  * Mark amd64 only symbols as-is.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sun, 24 Jan 2016 10:20:09 +0100
+
+libsodium (1.0.8-1) experimental; urgency=low
+
+  * New upstream release.
+  * Library transition to version 18 of soname.
+  * Update libsodium18.symbols .
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sat, 23 Jan 2016 09:39:46 +0100
+
+libsodium (1.0.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update libsodium13.symbols .
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sat, 16 May 2015 21:17:39 +0000
+
+libsodium (1.0.1-1) unstable; urgency=medium
+
+  * New upstream release with important bugfixes.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sat, 29 Nov 2014 13:52:08 +0000
+
+libsodium (1.0.0-1) unstable; urgency=low
+
+  * Initial release. (Closes: #701962: ITP: libsodium -- Library for
+    build higher-level cryptographic tools)
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Wed, 08 Oct 2014 18:54:15 +0000
